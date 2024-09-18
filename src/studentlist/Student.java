@@ -13,6 +13,7 @@ public class Student // model the student raw data
     private String name; // variables private 
    private int sid; // principle "encapsulation"
 private int sem;
+private float fee;
     /**
      * @return the name
      */
@@ -53,5 +54,19 @@ private int sem;
      */
     public void setSem(int sem) {
         this.sem = sem;
+    }
+
+    /**
+     * @return the fee
+     */
+    public float getFee() {
+        return fee;
+    }
+
+    /**
+     * @param fee the fee to set
+     */
+    public void setFee(float fee) {
+        this.fee = fee;
     }
 }
