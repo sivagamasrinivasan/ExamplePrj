@@ -16,6 +16,7 @@ private int sem;
 private float fee;
     private String CourseDetails;
     private String schedule;
+    // fetch+merge
     /**
      * @return the name
      */
