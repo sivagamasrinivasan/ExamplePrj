@@ -15,6 +15,7 @@ public class Student // model the student raw data
 private int sem;
 private float fee;
     private String CourseDetails;
+    private String schedule;
     /**
      * @return the name
      */
